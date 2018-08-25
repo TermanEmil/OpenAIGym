@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9c30303-7b83-4765-9c93-ebfd35b754de" name="Default" comment="" />
+    <list default="true" id="a9c30303-7b83-4765-9c93-ebfd35b754de" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/MountainCarContinuous.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Taxi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi.py">
+      <file leaf-file-name="FrozenLake.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrozenLake.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="74" selection-end-column="44" />
+            <state relative-caret-position="271">
+              <caret line="61" column="72" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="72" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -23,11 +26,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrozenLake.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FrozenLake.py">
+      <file leaf-file-name="MountainCarContinuous.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MountainCarContinuous.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+            <state relative-caret-position="227">
+              <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fromnumeric.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../OpenAI-FrozenLake-QLearning/venv/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="1003" selection-start-line="1003" selection-end-line="1003" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="310" selection-start-line="310" selection-end-line="310" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Taxi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Taxi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="51" column="25" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="25" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -53,6 +86,7 @@
         <option value="$PROJECT_DIR$/Blackjack.py" />
         <option value="$PROJECT_DIR$/Taxi.py" />
         <option value="$PROJECT_DIR$/FrozenLake.py" />
+        <option value="$PROJECT_DIR$/MountainCarContinuous.py" />
       </list>
     </option>
   </component>
@@ -96,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FrozenLake">
+  <component name="RunManager" selected="Python.MountainCarContinuous">
     <configuration name="Blackjack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenAIGymSandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,6 +167,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="MountainCarContinuous" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenAIGymSandbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MountainCarContinuous.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Taxi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenAIGymSandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,9 +207,11 @@
       <item itemvalue="Python.Blackjack" />
       <item itemvalue="Python.Taxi" />
       <item itemvalue="Python.FrozenLake" />
+      <item itemvalue="Python.MountainCarContinuous" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MountainCarContinuous" />
         <item itemvalue="Python.FrozenLake" />
         <item itemvalue="Python.Taxi" />
         <item itemvalue="Python.Blackjack" />
@@ -189,7 +243,7 @@
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988355" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -199,14 +253,38 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.31441048" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24609375" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="0" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39939025" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="24" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="pos_observations" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Blackjack.py">
@@ -233,27 +311,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+    <entry file="file://$PROJECT_DIR$/../OpenAI-FrozenLake-QLearning/venv/lib/python3.6/site-packages/numpy/core/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="333" column="30" lean-forward="true" selection-start-line="333" selection-start-column="30" selection-end-line="333" selection-end-column="30" />
+        <state relative-caret-position="108">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi.py">
+    <entry file="file://$PROJECT_DIR$/../OpenAI-FrozenLake-QLearning/venv/lib/python3.6/site-packages/gym/envs/classic_control/continuous_mountain_car.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="74" selection-end-column="44" />
+        <state relative-caret-position="188">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OpenAI-FrozenLake-QLearning/venv/lib/python3.6/site-packages/gym/wrappers/time_limit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OpenAI-FrozenLake-QLearning/venv/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="1003" selection-start-line="1003" selection-end-line="1003" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrozenLake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="61" column="72" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="72" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrozenLake.py">
+    <entry file="file://$PROJECT_DIR$/Taxi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+        <state relative-caret-position="185">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MountainCarContinuous.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
