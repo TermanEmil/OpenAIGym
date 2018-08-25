@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9c30303-7b83-4765-9c93-ebfd35b754de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Taxi.py" afterDir="false" />
-    </list>
+    <list default="true" id="a9c30303-7b83-4765-9c93-ebfd35b754de" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +11,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Taxi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Taxi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Taxi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="231">
+              <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="74" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrozenLake.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrozenLake.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -42,6 +52,7 @@
       <list>
         <option value="$PROJECT_DIR$/Blackjack.py" />
         <option value="$PROJECT_DIR$/Taxi.py" />
+        <option value="$PROJECT_DIR$/FrozenLake.py" />
       </list>
     </option>
   </component>
@@ -85,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Taxi">
+  <component name="RunManager" selected="Python.FrozenLake">
     <configuration name="Blackjack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenAIGymSandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,6 +110,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="FrozenLake" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenAIGymSandbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FrozenLake.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,9 +154,11 @@
     <list>
       <item itemvalue="Python.Blackjack" />
       <item itemvalue="Python.Taxi" />
+      <item itemvalue="Python.FrozenLake" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FrozenLake" />
         <item itemvalue="Python.Taxi" />
         <item itemvalue="Python.Blackjack" />
       </list>
@@ -211,8 +242,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Taxi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="231">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="74" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrozenLake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
