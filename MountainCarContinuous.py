@@ -1,7 +1,18 @@
 import gym
 import numpy as np
-import random
 import matplotlib.pyplot as plt
+
+
+"""
+I tried to solve this problem using Tabular Q-Learning. I divided the
+observations into N positions and M velocities. The actions represent a table
+of 2  values.
+
+Observation:
+    If the action table has 4++ values, the problem won't converge. I think
+    that's because it need's a smooth transition from observations to actions.
+    I believe a neural network will work much better. 
+"""
 
 
 # Mountain Car utils
