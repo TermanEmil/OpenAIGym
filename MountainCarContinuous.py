@@ -141,7 +141,7 @@ def main():
 
             if done:
                 break
-            # env.render()
+            env.render()
 
         rewards.append(total_reward)
 

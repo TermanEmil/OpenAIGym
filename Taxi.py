@@ -29,27 +29,30 @@ def print_average_reward(rewards, nb_of_episodes):
         "Average score of last episodes: ",
         sum(rewards[-last_n_episodes:]) / last_n_episodes)
 
+
 def main():
     env = gym.make('Taxi-v2')
 
     Q = np.zeros([env.observation_space.n, env.action_space.n])
 
     # Set learning parameters.
-    learning_rate = 0.8
-    discount = 1
+    learning_rate = 0.5
+    discount = 0.95
     num_episodes = 500
     max_episode_steps = 1000
 
     # Create lists to contain total reward and steps per episode.
     rewards = []
 
-    for _ in range(num_episodes):
+    for i in range(num_episodes):
         s = env.reset()
         total_reward = 0
 
         for _ in range(max_episode_steps):
             # Choose an action by greedily picking from Q table.
-            a = np.argmax(Q[s])
+            a = np.argmax(
+                Q[s] +
+                np.random.randn(1, env.action_space.n) * (1.0 / (i + 1)))
 
             # Get new state and reward from env.
             s1, r, done, _ = env.step(a)
