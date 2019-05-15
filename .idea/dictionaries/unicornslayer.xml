@@ -1,8 +1,13 @@
 <component name="ProjectDictionaryState">
   <dictionary name="unicornslayer">
     <words>
+      <w>cartpole</w>
+      <w>initializers</w>
       <w>lerp</w>
       <w>mnist</w>
+      <w>relu</w>
+      <w>softmax</w>
+      <w>tanh</w>
     </words>
   </dictionary>
 </component>

@@ -1,0 +1,4 @@
+tensorflow>=2.0.0.a0
+gym
+tensorflow-addons
+mujoco_py
